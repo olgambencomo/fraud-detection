@@ -6,7 +6,7 @@ A machine learning project focused on detecting fraudulent financial transaction
 
 ## Business Objective
 
-Financial fraud causes billions in losses every year. The goal of this project is to build a classification model capable of identifying fraudulent transactions in real time, with a focus on **maximizing Recall**, because in a fraud detection context, missing a fraudulent transaction is far more costly than flagging a legitimate one for review.
+Financial fraud causes billions in losses every year. The goal of this project is to build a classification model capable of identifying fraudulent transactions in real time, with a focus on maximizing Recall, because in a fraud detection context, missing a fraudulent transaction is far more costly than flagging a legitimate one for review.
 
 ---
 
@@ -21,7 +21,7 @@ The final tuned XGBoost model outperformed the baseline across the most critical
 
 **Key outcome:** The tuned model detects **98 out of every 100 fraudulent transactions**, reducing undetected fraud from 8 to just 2 cases per 100, a critical improvement for a real-world fraud prevention system.
 
-> Hyperparameter optimization was performed using **Optuna** (Bayesian search, 100 trials) with Stratified K-Fold cross-validation.
+> Hyperparameter optimization was performed using Optuna (Bayesian search, 100 trials) with Stratified K-Fold cross-validation.
 
 ---
 
